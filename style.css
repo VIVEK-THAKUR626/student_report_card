@@ -5,14 +5,21 @@
 header{
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: black;
+    height: 7vh;
+}
+main{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
 }
 .content{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    height: 35vh;
+    height: 33em;
 }
 .navbar{
     background-color: black;
@@ -33,12 +40,12 @@ header{
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)),url("istockphoto-487591111-1024x1024.jpg");
     background-size: cover;
     background-position: center;
-    height: 12em;
+    height: 33em;
 }
 h1{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 2.5em;
+    font-size: 1.8em;
 }
 h2{
     font-size: 1.2em;
@@ -59,9 +66,9 @@ h2{
     width: 100vw;
 }
 button{
-    padding: 0.59em;
+    padding: 0.6em;
     border-radius: 1em;
-    width: 8em;
+    width: 9.9em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: 2px white solid;
     background-color: rgb(73, 9, 125);
@@ -71,6 +78,8 @@ button{
 .feedback{
     display: flex;
     justify-content: center;
+    background-color: black;
+    height: 33em;
 }
 form{
     display: flex;
@@ -79,9 +88,12 @@ form{
     height: 14em;
     width: 70vw;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border: 3px solid black;
+    border: 3px solid white;
     padding: 0.7em;
     border-radius: 0.5em;
+    color: white;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 #submit{
     width: 7em;
@@ -90,11 +102,18 @@ form{
     border-radius: 1em;
 }
 footer{
-    margin-top: 1em;
-    margin-bottom: 1em;
+    display: flex;
+    background-color: black;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
 }
-footer h2{
-    color: black;
+h4{
+    color: white;
     text-shadow: none;
-    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
