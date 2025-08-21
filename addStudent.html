@@ -4,10 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add Student</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form>
-        
+    <div class="container">
+        <form class="studentDetails">
+            <h1>ADD STUDENT DETAILS</h1>
+        <div>
+            <label>STUDENT NAME:</label>
+            <input type="text" id="studentName">
+        </div>
+        <div>
+            <label>STUDENT ID:</label>
+            <input type="number" id="studentID">
+        </div>
+        <div>
+            <h2>SUBJECT SCORES</h2>
+            <div class="subjects">
+                <div>
+                    <label>DISCRETE MATHS</label>
+                    <input type="number" id="dsScore">
+                    <h3>/40</h3>
+                </div>
+                <div>
+                    <label>FRONT END ENGINEERING</label>
+                    <input type="number" id="feeScore">
+                    <h3>/40</h3>
+                </div>
+                <div>
+                    <label>DATABASE MANAGEMENT SYSTEM</label>
+                    <input type="number" id="dbmsScore">
+                    <h3>/40</h3>
+                </div>
+                <div>
+                    <label>COMPUTER NETWORKS</label>
+                    <input type="number" id="cnScore">
+                    <h3>/40</h3>
+                </div>
+                <div>
+                    <label>OBJECT ORIENTED PROGRAMMING WITH C++</label>
+                    <input type="number" id="cppScore">
+                    <h3>/40</h3>
+                </div>
+                <input type="submit" id="submitDetails">
+            </div>
+        </div>
     </form>
+    </div>
 </body>
 </html>

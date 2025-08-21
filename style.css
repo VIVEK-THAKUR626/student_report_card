@@ -9,6 +9,51 @@ header{
     background-color: black;
     height: 7vh;
 }
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+#submitDetails{
+    align-self: center;
+    width: 7em;
+    height: 3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 3px solid black;
+    border-radius: 2em;
+}
+.studentDetails{
+    display: flex;
+    flex-direction: column;
+    height: 35em;
+    width: 40em;
+    margin: 1em;
+    justify-content: space-evenly;
+    border: 3px black solid;
+}
+.studentDetails h1,.studentDetails h2,.studentDetails label,.studentDetails h3{
+    color: black;
+    text-shadow: none;
+    text-align: center;
+}
+.studentDetails input{
+    padding: 0.2em;
+}
+.subjects h3{
+    display: inline;
+}
+.subjects input{
+    width: 3em;
+    height: 2em;
+}
+.subjects{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 20em;
+}
 main{
     height: 90vh;
     display: flex;
